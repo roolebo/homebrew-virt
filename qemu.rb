@@ -3,7 +3,7 @@ class Qemu < Formula
   homepage "https://www.qemu.org/"
   url "https://download.qemu.org/qemu-3.0.0.tar.xz"
   sha256 "8d7af64fe8bd5ea5c3bdf17131a8b858491bcce1ee3839425a6d91fb821b5713"
-  head "https://github.com/roolebo/qemu.git", :branch => "hvf-fixes"
+  head "https://git.qemu.org/git/qemu.git"
 
   bottle do
     rebuild 1
